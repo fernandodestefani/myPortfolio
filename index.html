@@ -11,12 +11,12 @@
 
     <!-- FAVICONS -->
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-    
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@702&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
 
@@ -29,60 +29,69 @@
   </head>
 
   <body>
-    <header>
+    <header class="header">
       <!-- Menu -->
-      <nav>
-        <a href="">FD</a>
-        <ul>
-          <li><a href="">About me</a></li>
-          <li><a href="">Skills</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Let’s connect</a></li>
+      <a class="logo" href="">FD</a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#about">About me</a></li>
+          <li><a class="main-nav-link" href="#skills">Skills</a></li>
+          <li><a class="main-nav-link" href="#projects">Projects</a></li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#cta">Let’s connect</a>
+          </li>
         </ul>
       </nav>
-      <button>
-        <ion-icon name="menu-outline"></ion-icon>
-        <ion-icon name="close-outline"></ion-icon>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
       </button>
     </header>
 
     <main>
       <!-- Hero -->
-      <section>
-        <div class="container">
-          <h1>
-            Welcome! My name is Fernando Destefani. I'm a Software Engineer.
-          </h1>
-          <p>
-            I am a multidisciplinary professional currently completing my career
-            transition from medicine to Software Engineering. Passionate about
-            front-end development, I am working towards becoming a proficient Full
-            Stack Developer.
-          </p>
-          <a href="">Reach out</a>
-          <a href="">See my projects &darr;</a>
-          <picture>
-            <img
-              src="hero.jpg"
-              alt="Man coding late at night at his desk, surrounded by sticky notes on the wall"
-            />
-          </picture>
+      <section class="section-hero">
+        <div class="container hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Welcome! My name is Fernando Destefani. I'm a Software Engineer.
+            </h1>
+            <p class="hero-description">
+              I am a multidisciplinary professional currently completing my
+              career transition from medicine to Software Engineering.
+              Passionate about front-end development, I am working towards
+              becoming a proficient Full Stack Developer.
+            </p>
+            <a href="#cta" class="btn btn--full">Reach out</a>
+            <a href="#projects" class="btn btn--outline"
+              >See my projects &darr;</a
+            >
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <img
+                src="hero.jpg"
+                class="hero-img"
+                alt="Man coding late at night at his desk, surrounded by sticky notes on the wall"
+              />
+            </picture>
+          </div>
         </div>
       </section>
 
       <!-- About -->
-      <section>
+      <section class="section-about">
         <div class="container">
           <span>ABOUT ME</span>
           <h2>The road so far</h2>
           <p>
             I’m currently in the fourth year of my Bachelor's degree in Software
             Engineering, completing a career transition from Medicine to
-            Technology. With a solid background in healthcare, I worked for seven
-            years as a general practitioner, gaining strong interpersonal and
-            problem-solving skills and firsthand experience in the healthcare
-            domain as a user of systems like SaúdeIngá. This domain knowledge
-            gives me a valuable perspective that I now apply in tech.
+            Technology. With a solid background in healthcare, I worked for
+            seven years as a general practitioner, gaining strong interpersonal
+            and problem-solving skills and firsthand experience in the
+            healthcare domain as a user of systems like SaúdeIngá. This domain
+            knowledge gives me a valuable perspective that I now apply in tech.
           </p>
           <div>
             <h3>Education</h3>
@@ -124,9 +133,9 @@
             <p>
               Strong knowledge of programming logic with Python. Development of
               responsive, accessible real-world websites using HTML, CSS, and
-              JavaScript, following best practices in web design and cross-browser
-              compatibility. Use of React and React Native for building simple,
-              functional web and mobile applications.
+              JavaScript, following best practices in web design and
+              cross-browser compatibility. Use of React and React Native for
+              building simple, functional web and mobile applications.
             </p>
           </div>
           <div>
@@ -142,9 +151,9 @@
             <h3>Development Tools</h3>
             <p>
               PyCharm and Visual Studio Code as code editors and development
-              environments. Use of Figma to design websites and apps with low and
-              high-fidelity prototypes. Git and GitHub for version control and
-              project collaboration.
+              environments. Use of Figma to design websites and apps with low
+              and high-fidelity prototypes. Git and GitHub for version control
+              and project collaboration.
             </p>
           </div>
           <div>
