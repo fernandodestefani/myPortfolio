@@ -11,7 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: hsla(213, 47%, 47%, 0.97);
+  background-color: hsla(196, 77%, 14%, 0.95);
   height: 6.4rem;
   padding: 0 4.8rem;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.075);
@@ -21,7 +21,7 @@
 .logo:visited {
   font-size: 2.2rem;
   text-decoration: none;
-  color: #dbe2ef;
+  color: var(--color-description);
   font-weight: 600;
   transition: all 0.3s;
 }
@@ -41,7 +41,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #dbe2ef;
+  color: var(--color-text-primary);
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -51,20 +51,20 @@
 .main-nav-link:active,
 .logo:hover,
 .logo:active {
-  color: #112d4e;
+  color: var(--color-text-hover);
 }
 
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
-  color: #f9f7f7;
-  background-color: #254d70;
+  color: var(--color-text-primary);
+  background-color: var(--color-button);
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #112d4e;
+  background-color: var(--color-button-hover);
 }
 
 /* MOBILE */
@@ -79,9 +79,8 @@
 .section-hero {
   position: relative;
   overflow: hidden;
-  margin-top: 6.4rem;
-  background-color: #dbe2ef;
-  padding: 4.8rem 0 9.6rem 0;
+  background-color: var(--color-background);
+  padding: 6.4rem 0 9.6rem 0;
 }
 
 .hero {
@@ -98,6 +97,7 @@
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
+  color: var(--color-description)
 }
 
 .hero-img {
@@ -118,11 +118,10 @@
 }
 
 .snowflake {
-  color: #9ceaee;
+  color: #fff;
   font-size: 2.5em;
   font-family: Arial, sans-serif;
   text-shadow: 0 0 5px #000;
-  
 }
 
 .snowflake,
@@ -240,3 +239,42 @@
   left: 65%;
   animation-delay: 2.5s;
 }
+
+/************************/
+/* ABOUT ME SECTION */
+/************************/
+.section-about {
+
+}
+
+.subheading {
+
+}
+
+.about-description {
+
+}
+
+.timeline {
+
+}
+
+.timeline-title {
+
+}
+
+.timeline-container {
+
+}
+
+.timeline-subtitle {
+
+}
+
+.timeline-box{
+
+}
+
+/* 
+- fazer sessão about me
+*/
