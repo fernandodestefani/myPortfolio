@@ -271,10 +271,6 @@
   letter-spacing: -0.5px;
 }
 
-.timeline-container {
-
-}
-
 .timeline-subtitle {
   font-size: 1.8rem;
   line-height: 1.6;
@@ -291,9 +287,14 @@
   color: var(--color-text-grey);
 }
 
+/************************/
+/* SKILLS SECTION */
+/************************/
+
+
+
 /* 
 - adicionar música
-- fazer sessão about me
 - fazer sessão skills
 - fazer cta com vídeo de fundo
 - fazer footer
