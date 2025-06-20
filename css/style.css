@@ -336,27 +336,74 @@
   color: var(--color-text-grey);
 }
 
-.skills-languages-list {
-
+.skills-list {
+  width: 100%;
+  background-color: #DBE2EF;
+  border-radius: 11px;
+  padding: 2.4rem 3.2rem;
+  box-shadow: 0 0.8rem 2.4rem rgba(0, 0, 0, 0.05);
 }
 
 .chart-title {
-
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: var(--color-button);
 }
 
 .chart-bar {
-
+  width: 100%;
+  height: 2rem;
+  background-color: #fefefe;
+  margin-bottom: 1.6rem;
+  border-radius: 6px;
 }
 
 .chart-bar-fill {
-
+  height: 100%;
+  background-color: var(--color-button);
+  border-radius: 6px;
 }
 
-.skills-tools {
-
+.skills-list > div:last-child .chart-bar {
+  margin-bottom: 0.3rem;
 }
 
+.python {
+  width: 55%;
+}
 
+.html-css {
+  width: 75%;
+}
+
+.javascript {
+  width: 80%;
+}
+
+.react {
+  width: 10%;
+}
+
+.react-native {
+  width: 15%;
+}
+
+.pycharm {
+  width: 25%;
+}
+
+.vscode {
+  width: 40%;
+}
+
+.figma {
+  width: 33%;
+}
+
+.github {
+  width: 25%;
+}
 
 /* 
 - adicionar música
