@@ -73,7 +73,9 @@ body {
   --color-description: #c2c2c2;
   --color-button: #254D70;
   --color-button-hover: #1b3a54;
-  --color-text-grey: #555;   
+  --color-text-grey: #555;
+  --color-grey-almost-black: #333;
+  --color-ice: #DBE2EF;   
 }
 
 /************************/
