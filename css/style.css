@@ -299,7 +299,8 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
+  column-gap: 9.6rem;
+  row-gap: 8rem;
   align-items: center;
 }
 
@@ -409,7 +410,8 @@
 /* PROJECTS SECTION */
 /************************/
 .section-projects {
-
+  padding: 9.6rem 0;
+  background-color: var(--color-white-background);
 }
 
 .projects {
@@ -461,7 +463,7 @@
 }
 
 .project-text {
-  
+
 }
 
 /* 
