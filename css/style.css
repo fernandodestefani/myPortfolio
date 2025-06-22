@@ -268,7 +268,6 @@
   z-index: 0;
 }
 
-
 .about-description {
   font-size: 1.8rem;
   line-height: 1.6;
@@ -435,7 +434,7 @@
 /* PROJECTS SECTION */
 /************************/
 .section-projects {
-  padding: 9.6rem 0;
+  padding: 6.4rem 0 9.6rem 0;
   background-color: var(--color-white-background);
 }
 
@@ -553,8 +552,54 @@
   color: var(--color-text-hover);
 }
 
+/************************/
+/* CTA SECTION */
+/************************/
+.section-cta {
+  padding: 9.6rem 0;
+  background-color: var(--color-background);
+}
+
+.cta {
+
+}
+
+.heading-secondary-cta {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 4.8rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--color-text-primary);
+}
+
+.cta-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: var(--color-description);
+  margin-bottom: 4.8rem;
+}
+
+.cta-invite {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+  color: var(--color-ice)
+}
+
+.contact-links {
+
+}
+
+.contact-link {
+
+}
+
+.contact-icon {
+
+}
+
 /* 
-- ajustar espaçamento
 - adicionar música
 - fazer cta com vídeo de fundo
 - fazer footer
