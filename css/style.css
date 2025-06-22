@@ -308,11 +308,15 @@
   color: var(--color-text-grey);
 }
 
+.timeline-box:last-child {
+  margin-bottom: 0;
+}
+
 /************************/
 /* SKILLS SECTION */
 /************************/
 .section-skills {
-  padding: 4.8rem 0;
+  padding: 9.6rem 0;
   background-color: var(--color-white-background);
 }
 
@@ -436,7 +440,7 @@
 }
 
 .projects {
-  margin: 0 auto 4.8rem auto;
+  margin: 9.6rem auto ;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 4.8rem;
@@ -552,7 +556,6 @@
 /* 
 - ajustar espaçamento
 - adicionar música
-- fazer fundo de tela uma imagem de montanhas
 - fazer cta com vídeo de fundo
 - fazer footer
 - personalizar focus
