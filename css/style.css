@@ -561,7 +561,7 @@
 }
 
 .cta {
-
+  margin: 0 auto;
 }
 
 .heading-secondary-cta {
@@ -584,19 +584,29 @@
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
-  color: var(--color-ice)
+  color: var(--color-description)
 }
 
 .contact-links {
-
+  display: flex;
+  justify-content: flex-start;
+  gap: 3.2rem;
 }
 
-.contact-link {
+.contact-link:link, .contact-link:visited {
+  font-size: 3.2rem;
+  color: var(--color-description);
+  transition: all 0.3s;
+}
 
+.contact-link:hover, .contact-link:active {
+  transform: scale(1.1);
+  color: var(--color-white-background);
 }
 
 .contact-icon {
-
+  width: 4.4rem;
+  height: 4.4rem;
 }
 
 /* 
