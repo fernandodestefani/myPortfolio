@@ -308,6 +308,10 @@
   color: var(--color-text-grey);
 }
 
+.timeline-box p:last-child {
+  text-align: right;
+}
+
 .timeline-box:last-child {
   margin-bottom: 0;
 }
@@ -643,7 +647,6 @@ footer::before {
 
 /* 
 Tasks
-- usar aria label para percentagem da coluna no z-pattern
 - aumentar tamanho vertical dos cartões em projetos
 - usar text align right para os anos na sessão about me
 - implementar smooth scrolling navigation e section reveal on scroll 
