@@ -610,9 +610,13 @@
 }
 
 /* 
-- adicionar música
-- fazer cta com vídeo de fundo
+tasks
 - fazer footer
 - personalizar focus
-- adicionar efeitos js
+- usar aria label para percentagem da coluna no z-pattern
+- usar text align right para os anos na sessão about me
+- implementar smooth scrolling navigation e section reveal on scroll 
+- media queries para diferentes telas
+- fazer transição do menu para dispositivos móveis
+- acessível para safari, firefox e internet explorer
 */
