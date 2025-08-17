@@ -52,6 +52,10 @@ Medium: 11px
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 html {
   font-size: 62.5%;
   /* overflow-x: hidden; */
