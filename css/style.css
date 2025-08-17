@@ -396,7 +396,7 @@
 }
 
 .python {
-  width: 55%;
+  width: 50%;
 }
 
 .html-css {
@@ -404,7 +404,7 @@
 }
 
 .javascript {
-  width: 80%;
+  width: 75%;
 }
 
 .react {
@@ -412,7 +412,7 @@
 }
 
 .react-native {
-  width: 15%;
+  width: 25%;
 }
 
 .pycharm {
@@ -420,7 +420,7 @@
 }
 
 .vscode {
-  width: 40%;
+  width: 50%;
 }
 
 .figma {
@@ -643,9 +643,8 @@ footer::before {
 
 /* 
 Tasks
-- personalizar focus
-- aumentar tamanho vertical dos cartões em projetos
 - usar aria label para percentagem da coluna no z-pattern
+- aumentar tamanho vertical dos cartões em projetos
 - usar text align right para os anos na sessão about me
 - implementar smooth scrolling navigation e section reveal on scroll 
 - media queries para diferentes telas
