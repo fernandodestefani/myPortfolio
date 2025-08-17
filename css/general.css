@@ -58,6 +58,7 @@ html, body {
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
   /* overflow-x: hidden; */
 }
 
@@ -89,6 +90,12 @@ body {
     0 0 8px 0 hsla(219, 38%, 90%, 0.6);
   border-radius: 4px;
   padding: 4px;
+}
+
+.project-link:focus {
+  box-shadow: 
+    0 0 0 0.4rem hsla(195, 42%, 53%, 0.5),
+    0 0 8px 0 hsla(195, 42%, 53%, 0.6);
 }
 
 /************************/
