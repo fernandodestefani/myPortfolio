@@ -103,7 +103,23 @@
 
 .hero-img {
   width: 100%;
+  animation: moveInRight 1s ease-out;
 }
+
+.hero-links {
+  animation: moveInBottom 1s ease-out;
+}
+
+@keyframes moveInRight {
+  from { opacity: 0; transform: translateX(10rem); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes moveInBottom {
+  from { opacity: 0; transform: translateY(6rem)};
+  to { opacity: 1; transform: translateY(0)};
+}
+
 
 /************************/
 /* SNOWFLAKES */
