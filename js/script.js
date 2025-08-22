@@ -1,4 +1,6 @@
 'use strict';
+
+//////////////////////////////////
 // Reveal on screen
 const allSections = document.querySelectorAll('.section');
 
@@ -18,4 +20,13 @@ const sectionObserver = new IntersectionObserver(revealSection, {
 allSections.forEach(function(section){
   sectionObserver.observe(section);
   section.classList.add("section--hidden")
+})
+
+//////////////////////////////////
+// Show menu
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector('.header');
+
+btnNavEl.addEventListener('click', function(){
+  headerEl.classList.toggle('nav-open')
 })
