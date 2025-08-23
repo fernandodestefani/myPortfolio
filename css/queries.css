@@ -149,4 +149,27 @@
 
 /* BELLOW 560px */
 @media (max-width: 35rem) {
+  .section-skills {
+    padding: 9.6rem 0 4.8rem 0
+  }
+  .skills-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  .skills-language { order: 1; }
+  .sills-list:nth-of-type(1) {order: 2;}
+  .skills-tools { order: 3;}
+  .skills-list:nth-of-type(2) {order: 4;}
+  .skills-languages {
+    margin-top: 0.4rem;
+  }
+  .skills-description {
+    margin-bottom: 0;
+  }
+  .skills-list {
+    margin-bottom: 3.2rem;
+  }
+  .section-projects {
+    padding: 4.8rem 0 9.6rem 0;
+  }
 }
