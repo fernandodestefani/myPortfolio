@@ -7,7 +7,7 @@
 /* === Media Queries === */
 
 /* BELLOW  1104px */
-@media (max-width: 69rem) {
+@media (max-width: 74rem) {
   html {
     font-size: 56.25%;
   }
@@ -25,7 +25,7 @@
   .hero-links {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     gap: 1.6rem;
     white-space: nowrap;
   }
@@ -149,6 +149,20 @@
 
 /* BELLOW 560px */
 @media (max-width: 35rem) {
+  .hero {
+    gap: 3.2rem;
+  }
+
+  .section-about {
+    padding: 9.6rem 0 6.4rem 0;
+  }
+  .timeline {
+    gap: 3.2rem;
+  }
+  .timeline-box {
+    margin-bottom: 2.4rem;
+  }
+
   .section-skills {
     padding: 9.6rem 0 4.8rem 0
   }
