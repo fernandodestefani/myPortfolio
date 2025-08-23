@@ -684,7 +684,7 @@ footer::before {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 3rem;
+  gap: 3.2rem;
 }
 
 .footer-description {
@@ -694,7 +694,6 @@ footer::before {
 
 /* 
 Tasks
-- fazer transição do menu para dispositivos móveis
 - media queries para diferentes telas
 - acessível para safari, firefox e internet explorer
 - refatorar neve

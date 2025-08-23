@@ -180,6 +180,20 @@
     min-height: 40rem;
     max-width: 30rem;
     width: 100%;
+  } 
+}
+
+/* BELLOW 400px */
+@media (max-width: 25rem) {
+  .hero-links {
+    flex-direction: column;
+    gap: 1rem;
   }
-  
+  .hero-img {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+    min-width: unset;       
+  }
+
 }
