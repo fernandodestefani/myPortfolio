@@ -26,7 +26,14 @@ allSections.forEach(function(section){
 // Show menu
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector('.header');
+const navLinks = document.querySelectorAll('.main-nav-link')
 
 btnNavEl.addEventListener('click', function(){
   headerEl.classList.toggle('nav-open')
+})
+
+navLinks.forEach(link => {
+  link.addEventListener("click", function(){
+    headerEl.classList.remove("nav-open")
+  })
 })
