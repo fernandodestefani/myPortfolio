@@ -40,7 +40,7 @@ This portfolio was developed using:
 ![myportfolio_desktop (1)](https://github.com/user-attachments/assets/0c2a76ef-a747-4145-9ba8-e226849c4892)
 
 **📱 Mobile Version**  
-![Mobile Version](path-to-your-mobile-gif.gif)
+![myportfolio_cellphone (2)](https://github.com/user-attachments/assets/34f8faf8-7832-4932-9f50-22e1b99be559)
 
 ---
 
