@@ -37,7 +37,7 @@ This portfolio was developed using:
 ## 🎥 Live Demonstration (GIF Previews)
 
 **🖥️ Desktop Version**  
-![Desktop Version](path-to-your-desktop-gif.gif)
+![myportfolio_desktop (1)](https://github.com/user-attachments/assets/0c2a76ef-a747-4145-9ba8-e226849c4892)
 
 **📱 Mobile Version**  
 ![Mobile Version](path-to-your-mobile-gif.gif)
