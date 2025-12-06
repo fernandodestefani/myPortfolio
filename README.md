@@ -36,8 +36,6 @@ This portfolio was developed using:
 
 ## 🎥 Live Demonstration (GIF Previews)
 
-> *Add your GIF files below when ready.*
-
 **🖥️ Desktop Version**  
 ![Desktop Version](path-to-your-desktop-gif.gif)
 
