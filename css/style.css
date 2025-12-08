@@ -311,7 +311,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
-  align-items: center;
+  align-items: start;
 }
 
 .timeline-title {
@@ -350,7 +350,7 @@
   text-align: right;
 }
 
-.timeline-box:last-child {
+.timeline-box:last-of-type {
   margin-bottom: 0;
 }
 
