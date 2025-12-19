@@ -438,7 +438,7 @@
 }
 
 .python {
-  width: 50%;
+  width: 30%;
 }
 
 .html-css {
@@ -450,11 +450,11 @@
 }
 
 .react {
-  width: 10%;
+  width: 50%;
 }
 
 .react-native {
-  width: 25%;
+  width: 20%;
 }
 
 .pycharm {
@@ -462,7 +462,7 @@
 }
 
 .vscode {
-  width: 50%;
+  width: 66%;
 }
 
 .figma {
@@ -470,7 +470,7 @@
 }
 
 .github {
-  width: 25%;
+  width: 75%;
 }
 
 /************************/
